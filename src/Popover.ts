@@ -2,7 +2,7 @@ import { Directive, HostListener, ComponentRef, ViewContainerRef, ComponentFacto
 import {PopoverContent} from "./PopoverContent";
 
 @Directive({
-    selector: "[popover]",
+    selector: "[ngx-popover]",
     exportAs: "popover"
 })
 export class Popover implements OnChanges {
